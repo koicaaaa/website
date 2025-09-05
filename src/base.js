@@ -43,6 +43,15 @@ export function basis() {
     imageHeader.classList.add("image-header");
     imageHeader.setAttribute("id", "image-header");
 
+    const footerContainer = document.createElement("div");
+    footerContainer.classList.add("footer-container");
+    footerContainer.setAttribute("id", "footer-container");
+
+    const footer = document.createElement("div");
+    footer.classList.add("footer");
+    footer.setAttribute("id", "footer");
+    footer.textContent = "♪ ₊˚ Cascade of Mental Images"
+
     container.appendChild(background);
 
     navContainer.appendChild(nav1);
@@ -52,8 +61,11 @@ export function basis() {
 
     imageContainer.appendChild(imageHeader);
 
+    footerContainer.appendChild(footer);
+
     backgroundRectangle.appendChild(navContainer);
     backgroundRectangle.appendChild(imageContainer);
+    backgroundRectangle.appendChild(footerContainer);
     background.appendChild(backgroundRectangle);
 
     const mainContent = document.getElementById("main-content");
@@ -61,5 +73,5 @@ export function basis() {
 
     console.log("Hello!");
 
-    return { container, background, backgroundRectangle, navContainer, nav1 };
+    return { container, background, backgroundRectangle, navContainer, nav1, nav2, nav3, nav4 };
 }
