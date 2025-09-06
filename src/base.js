@@ -1,3 +1,8 @@
+import { navOne } from "./navigations/nav-one";
+import { navTwo } from "./navigations/nav-two";
+import { navThree } from "./navigations/nav-three";
+import { navFour } from "./navigations/nav-four";
+
 export function basis() {
     const container = document.createElement("div");
     container.classList.add("content-container");
@@ -20,20 +25,40 @@ export function basis() {
     nav1.setAttribute("id", "nav-one");
     nav1.textContent = "I";
 
+    nav1.addEventListener("click", function(event) {
+        event.preventDefault();
+        navOne();
+    });
+
     const nav2 = document.createElement("div");
     nav2.classList.add("nav-box");
     nav2.setAttribute("id", "nav-two");
     nav2.textContent = "II";
+
+    nav2.addEventListener("click", function(event) {
+        event.preventDefault();
+        navTwo();
+    })
 
     const nav3 = document.createElement("div");
     nav3.classList.add("nav-box");
     nav3.setAttribute("id", "nav-three");
     nav3.textContent = "III";
 
+    nav3.addEventListener("click", function(event) {
+        event.preventDefault();
+        navThree();
+    })
+
     const nav4 = document.createElement("div");
     nav4.classList.add("nav-box");
     nav4.setAttribute("id", "nav-four");
     nav4.textContent = "IV";
+
+    nav4.addEventListener("click", function(event) {
+        event.preventDefault();
+        navFour();
+    })
 
     const imageContainer = document.createElement("div");
     imageContainer.classList.add("image-header-container");

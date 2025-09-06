@@ -91,7 +91,7 @@ body {
     letter-spacing: 1px;
 }
 
-/* Button One */
+/* I */
 
 .one-content-container {
     display: flex;
@@ -128,5 +128,129 @@ body {
 }
 
 .pic-one {
+    object-fit: cover;
+}
+
+
+/* II */
+
+.two-content-container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.two-background-container {
+    display: flex;
+    justify-content: center;
+    box-shadow: 1px 5px 15px var(--primary-color);
+    height: 600px;
+    width: 610px;
+    background-color: white;
+}
+
+.two-background-rectangle {
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 4px solid var(--primary-color);
+    width: 580px;
+    height: 560px;
+    background-color: white;
+}
+
+.pic-two-container {
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    width: 500px;
+}
+
+.pic-two {
+    object-fit: cover;
+}
+
+
+/* III */
+
+.third-content-container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.third-background-container {
+    display: flex;
+    justify-content: center;
+    box-shadow: 1px 5px 15px var(--primary-color);
+    height: 600px;
+    width: 610px;
+    background-color: white;
+}
+
+.third-background-rectangle {
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 4px solid var(--primary-color);
+    width: 580px;
+    height: 560px;
+    background-color: white;
+}
+
+.pic-three-container {
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    width: 500px;
+}
+
+.pic-three {
+    object-fit: cover;
+}
+
+
+
+/* IV */
+
+.fourth-content-container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth-background-container {
+    display: flex;
+    justify-content: center;
+    box-shadow: 1px 5px 15px var(--primary-color);
+    height: 600px;
+    width: 610px;
+    background-color: white;
+}
+
+.fourth-background-rectangle {
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 4px solid var(--primary-color);
+    width: 580px;
+    height: 560px;
+    background-color: white;
+}
+
+.pic-four-container {
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    width: 500px;
+}
+
+.pic-four {
     object-fit: cover;
 }

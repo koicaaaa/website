@@ -1,4 +1,4 @@
-import { basis } from "./base";
+import { basis } from "../base";
 
 export function navOne() {
     const boxOne = document.getElementById("nav-one");
