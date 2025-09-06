@@ -90,3 +90,43 @@ body {
     font-style: italic;
     letter-spacing: 1px;
 }
+
+/* Button One */
+
+.one-content-container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.one-background-container {
+    display: flex;
+    justify-content: center;
+    box-shadow: 1px 5px 15px var(--primary-color);
+    height: 600px;
+    width: 610px;
+    background-color: white;
+}
+
+.one-background-rectangle {
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 4px solid var(--primary-color);
+    width: 580px;
+    height: 560px;
+    background-color: white;
+}
+
+.pic-one-container {
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    width: 500px;
+}
+
+.pic-one {
+    object-fit: cover;
+}
